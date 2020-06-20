@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/extraRuns', (req, res) => {
-    let year = Object.values(req.query.value)
+    let year = Object.values(req.query)
     res.json(data['extraRuns'][year])
 })
 
