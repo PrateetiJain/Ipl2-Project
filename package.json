@@ -1,0 +1,21 @@
+{
+  "name": "ipl_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ipl": "node index.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Prateeti",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "http-server": "^0.12.1"
+  }
+}
